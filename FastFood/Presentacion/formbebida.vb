@@ -102,7 +102,7 @@
         'stock
         stockvb = stockvb - 1
         If stockvb <= 0 Then
-            Producto4.Enabled = False
+            Producto2.Enabled = False
             stckvb.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -127,7 +127,7 @@
         'stock
         stockvt = stockvt - 1
         If stockvt <= 0 Then
-            Producto3.Enabled = False
+            Producto4.Enabled = False
             stckvt.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else

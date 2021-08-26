@@ -102,7 +102,7 @@ Partial Class formbebida
         Me.Panel1.Controls.Add(Me.PictureBox4)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(0, 4)
+        Me.Panel1.Location = New System.Drawing.Point(3, 4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(659, 351)
         Me.Panel1.TabIndex = 2
@@ -471,9 +471,9 @@ Partial Class formbebida
         Me.Panel2.Controls.Add(Me.Label41)
         Me.Panel2.Controls.Add(Me.Label40)
         Me.Panel2.Controls.Add(Me.Label39)
-        Me.Panel2.Location = New System.Drawing.Point(661, 4)
+        Me.Panel2.Location = New System.Drawing.Point(668, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(123, 351)
+        Me.Panel2.Size = New System.Drawing.Size(117, 351)
         Me.Panel2.TabIndex = 60
         '
         'Label6

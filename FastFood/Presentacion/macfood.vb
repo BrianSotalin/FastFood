@@ -49,7 +49,7 @@
         cargarpr()
         cargarstock()
     End Sub
-    Private Function Comida1()
+    Private Function bleu()
         'stock
         stockcb = stockcb - 1
         If stockcb <= 0 Then
@@ -75,11 +75,11 @@
         Return 0
 
     End Function
-    Private Function comida2()
+    Private Function papasbacon()
         'stock
         stockfb = stockfb - 1
         If stockfb <= 0 Then
-            Producto1.Enabled = False
+            Producto3.Enabled = False
             lbfb.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -100,11 +100,11 @@
 
         Return 0
     End Function
-    Private Function comida3()
+    Private Function burguertocino()
         'stock
         stockbb = stockbb - 1
         If stockbb <= 0 Then
-            Producto3.Enabled = False
+            Producto5.Enabled = False
             lbb.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -125,11 +125,11 @@
 
         Return 0
     End Function
-    Private Function comida4()
+    Private Function nuggpollo()
         'stock
         stockng = stockng - 1
         If stockng <= 0 Then
-            Producto4.Enabled = False
+            Producto2.Enabled = False
             lbng.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -150,11 +150,11 @@
 
         Return 0
     End Function
-    Private Function comida5()
+    Private Function pastaravioli()
         'stock
         stockrv = stockrv - 1
         If stockrv <= 0 Then
-            Producto5.Enabled = False
+            Producto4.Enabled = False
             lbrv.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -175,7 +175,7 @@
 
         Return 0
     End Function
-    Private Function comida6()
+    Private Function perritohot()
         'stock
         stockhd = stockhd - 1
         If stockhd <= 0 Then
@@ -246,27 +246,27 @@
     End Sub
 
     Private Sub Producto1_Click(sender As Object, e As EventArgs) Handles Producto1.Click
-        Comida1()
+        bleu()
     End Sub
 
     Private Sub Producto5_Click(sender As Object, e As EventArgs) Handles Producto5.Click
-        comida3()
+        burguertocino()
     End Sub
 
     Private Sub Producto3_Click(sender As Object, e As EventArgs) Handles Producto3.Click
-        comida2()
+        papasbacon()
     End Sub
 
     Private Sub Producto2_Click(sender As Object, e As EventArgs) Handles Producto2.Click
-        comida4()
+        nuggpollo()
     End Sub
 
     Private Sub Producto4_Click(sender As Object, e As EventArgs) Handles Producto4.Click
-        comida5()
+        pastaravioli()
     End Sub
 
     Private Sub Producto6_Click(sender As Object, e As EventArgs) Handles Producto6.Click
-        comida6()
+        perritohot()
     End Sub
 
 

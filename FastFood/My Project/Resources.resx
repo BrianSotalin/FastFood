@@ -124,14 +124,17 @@
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="instgr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\instgr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="vinoblanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vinoblanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dessert4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dessert4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wtssp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wtssp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desserts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desserts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ravioli capresi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ravioli capresi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +144,9 @@
   </data>
   <data name="vino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dessert1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dessert1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jugosnature" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jugosnature.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,14 +163,17 @@
   <data name="Cordon-Blue-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cordon-Blue-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fastfood2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fastfood2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fries + bacon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fries + bacon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MacFood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MacFood1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="users" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +184,8 @@
   <data name="combos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\combos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="desserts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\desserts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fastfood2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fastfood2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="comidas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comidas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,11 +193,14 @@
   <data name="hamburguesapromoslide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hamburguesapromoslide1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fries + bacon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fries + bacon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="instgr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instgr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bbr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dessert2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dessert2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pastapromoslide3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pastapromoslide3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,7 +220,7 @@
   <data name="MacFood" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MacFood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dessert3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dessert3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

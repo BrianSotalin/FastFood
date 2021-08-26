@@ -123,6 +123,46 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property dessert1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("dessert1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property dessert2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("dessert2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property dessert3() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("dessert3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property dessert4() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("dessert4", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property desserts() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("desserts", resourceCulture)
