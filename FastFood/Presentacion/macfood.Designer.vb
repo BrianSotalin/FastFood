@@ -25,17 +25,12 @@ Partial Class MacFood
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MacFood))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.lblcj = New System.Windows.Forms.Label()
-        Me.lblsb = New System.Windows.Forms.Label()
-        Me.lbliva = New System.Windows.Forms.Label()
-        Me.lbltt = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Producto4 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto2 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto5 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto3 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto1 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto6 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.lbhd = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.lblhotdog = New System.Windows.Forms.Label()
@@ -61,30 +56,35 @@ Partial Class MacFood
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Producto4 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btnew = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btncobrar = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto2 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto5 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto3 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto1 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto6 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnew = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btncobrar = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.lblcj = New System.Windows.Forms.Label()
+        Me.lblsb = New System.Windows.Forms.Label()
+        Me.lbliva = New System.Windows.Forms.Label()
+        Me.lbltt = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -144,144 +144,155 @@ Partial Class MacFood
         Me.Label1.TabIndex = 59
         Me.Label1.Text = "Pollo"
         '
-        'Panel2
+        'Producto4
         '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Panel2.Controls.Add(Me.Label6)
-        Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.btnew)
-        Me.Panel2.Controls.Add(Me.btncobrar)
-        Me.Panel2.Controls.Add(Me.Label47)
-        Me.Panel2.Controls.Add(Me.lblcj)
-        Me.Panel2.Controls.Add(Me.lblsb)
-        Me.Panel2.Controls.Add(Me.lbliva)
-        Me.Panel2.Controls.Add(Me.lbltt)
-        Me.Panel2.Controls.Add(Me.Label42)
-        Me.Panel2.Controls.Add(Me.Label41)
-        Me.Panel2.Controls.Add(Me.Label40)
-        Me.Panel2.Controls.Add(Me.Label39)
-        Me.Panel2.Location = New System.Drawing.Point(668, 1)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(134, 403)
-        Me.Panel2.TabIndex = 4
+        Me.Producto4.ActiveBorderThickness = 1
+        Me.Producto4.ActiveCornerRadius = 20
+        Me.Producto4.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto4.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto4.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto4.BackgroundImage = CType(resources.GetObject("Producto4.BackgroundImage"), System.Drawing.Image)
+        Me.Producto4.ButtonText = "Ordenar"
+        Me.Producto4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto4.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto4.ForeColor = System.Drawing.Color.Red
+        Me.Producto4.IdleBorderThickness = 1
+        Me.Producto4.IdleCornerRadius = 20
+        Me.Producto4.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto4.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto4.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto4.Location = New System.Drawing.Point(521, 73)
+        Me.Producto4.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto4.Name = "Producto4"
+        Me.Producto4.Size = New System.Drawing.Size(95, 33)
+        Me.Producto4.TabIndex = 58
+        Me.Producto4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Button1
+        'Producto2
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Uighur", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button1.Location = New System.Drawing.Point(80, 373)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(34, 23)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "EXIT"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Producto2.ActiveBorderThickness = 1
+        Me.Producto2.ActiveCornerRadius = 20
+        Me.Producto2.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto2.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto2.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto2.BackgroundImage = CType(resources.GetObject("Producto2.BackgroundImage"), System.Drawing.Image)
+        Me.Producto2.ButtonText = "Ordenar"
+        Me.Producto2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto2.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto2.ForeColor = System.Drawing.Color.Red
+        Me.Producto2.IdleBorderThickness = 1
+        Me.Producto2.IdleCornerRadius = 20
+        Me.Producto2.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto2.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto2.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto2.Location = New System.Drawing.Point(174, 211)
+        Me.Producto2.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto2.Name = "Producto2"
+        Me.Producto2.Size = New System.Drawing.Size(95, 33)
+        Me.Producto2.TabIndex = 57
+        Me.Producto2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label47
+        'Producto5
         '
-        Me.Label47.AutoSize = True
-        Me.Label47.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label47.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label47.Location = New System.Drawing.Point(10, 18)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(98, 21)
-        Me.Label47.TabIndex = 36
-        Me.Label47.Text = "Registro "
+        Me.Producto5.ActiveBorderThickness = 1
+        Me.Producto5.ActiveCornerRadius = 20
+        Me.Producto5.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto5.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto5.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto5.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto5.BackgroundImage = CType(resources.GetObject("Producto5.BackgroundImage"), System.Drawing.Image)
+        Me.Producto5.ButtonText = "Ordenar"
+        Me.Producto5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto5.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto5.ForeColor = System.Drawing.Color.Red
+        Me.Producto5.IdleBorderThickness = 1
+        Me.Producto5.IdleCornerRadius = 20
+        Me.Producto5.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto5.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto5.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto5.Location = New System.Drawing.Point(521, 199)
+        Me.Producto5.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto5.Name = "Producto5"
+        Me.Producto5.Size = New System.Drawing.Size(95, 33)
+        Me.Producto5.TabIndex = 56
+        Me.Producto5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lblcj
+        'Producto3
         '
-        Me.lblcj.AutoSize = True
-        Me.lblcj.BackColor = System.Drawing.Color.PaleGreen
-        Me.lblcj.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblcj.ForeColor = System.Drawing.Color.Goldenrod
-        Me.lblcj.Location = New System.Drawing.Point(36, 123)
-        Me.lblcj.Name = "lblcj"
-        Me.lblcj.Size = New System.Drawing.Size(57, 19)
-        Me.lblcj.TabIndex = 35
-        Me.lblcj.Text = "500.00"
+        Me.Producto3.ActiveBorderThickness = 1
+        Me.Producto3.ActiveCornerRadius = 20
+        Me.Producto3.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto3.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto3.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto3.BackgroundImage = CType(resources.GetObject("Producto3.BackgroundImage"), System.Drawing.Image)
+        Me.Producto3.ButtonText = "Ordenar"
+        Me.Producto3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto3.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto3.ForeColor = System.Drawing.Color.Red
+        Me.Producto3.IdleBorderThickness = 1
+        Me.Producto3.IdleCornerRadius = 20
+        Me.Producto3.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto3.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto3.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto3.Location = New System.Drawing.Point(175, 320)
+        Me.Producto3.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto3.Name = "Producto3"
+        Me.Producto3.Size = New System.Drawing.Size(95, 33)
+        Me.Producto3.TabIndex = 55
+        Me.Producto3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lblsb
+        'Producto1
         '
-        Me.lblsb.AutoSize = True
-        Me.lblsb.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblsb.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblsb.ForeColor = System.Drawing.Color.Black
-        Me.lblsb.Location = New System.Drawing.Point(36, 175)
-        Me.lblsb.Name = "lblsb"
-        Me.lblsb.Size = New System.Drawing.Size(53, 18)
-        Me.lblsb.TabIndex = 34
-        Me.lblsb.Text = "100.00"
+        Me.Producto1.ActiveBorderThickness = 1
+        Me.Producto1.ActiveCornerRadius = 20
+        Me.Producto1.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto1.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto1.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto1.BackgroundImage = CType(resources.GetObject("Producto1.BackgroundImage"), System.Drawing.Image)
+        Me.Producto1.ButtonText = "Ordenar"
+        Me.Producto1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto1.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto1.ForeColor = System.Drawing.Color.Red
+        Me.Producto1.IdleBorderThickness = 1
+        Me.Producto1.IdleCornerRadius = 20
+        Me.Producto1.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto1.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto1.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto1.Location = New System.Drawing.Point(174, 65)
+        Me.Producto1.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto1.Name = "Producto1"
+        Me.Producto1.Size = New System.Drawing.Size(95, 33)
+        Me.Producto1.TabIndex = 54
+        Me.Producto1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lbliva
+        'Producto6
         '
-        Me.lbliva.AutoSize = True
-        Me.lbliva.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lbliva.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbliva.ForeColor = System.Drawing.Color.Black
-        Me.lbliva.Location = New System.Drawing.Point(36, 223)
-        Me.lbliva.Name = "lbliva"
-        Me.lbliva.Size = New System.Drawing.Size(53, 18)
-        Me.lbliva.TabIndex = 33
-        Me.lbliva.Text = "100.00"
-        '
-        'lbltt
-        '
-        Me.lbltt.AutoSize = True
-        Me.lbltt.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lbltt.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbltt.ForeColor = System.Drawing.Color.Black
-        Me.lbltt.Location = New System.Drawing.Point(37, 267)
-        Me.lbltt.Name = "lbltt"
-        Me.lbltt.Size = New System.Drawing.Size(53, 18)
-        Me.lbltt.TabIndex = 32
-        Me.lbltt.Text = "100.00"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(7, 247)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(44, 18)
-        Me.Label42.TabIndex = 12
-        Me.Label42.Text = "Total"
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.Black
-        Me.Label41.Location = New System.Drawing.Point(7, 206)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(33, 18)
-        Me.Label41.TabIndex = 11
-        Me.Label41.Text = "IVA"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.ForeColor = System.Drawing.Color.Black
-        Me.Label40.Location = New System.Drawing.Point(7, 158)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(68, 18)
-        Me.Label40.TabIndex = 10
-        Me.Label40.Text = "Subtotal"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.ForeColor = System.Drawing.Color.Black
-        Me.Label39.Location = New System.Drawing.Point(1, 105)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(113, 18)
-        Me.Label39.TabIndex = 9
-        Me.Label39.Text = "Dinero en caja"
+        Me.Producto6.ActiveBorderThickness = 1
+        Me.Producto6.ActiveCornerRadius = 20
+        Me.Producto6.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto6.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto6.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto6.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto6.BackgroundImage = CType(resources.GetObject("Producto6.BackgroundImage"), System.Drawing.Image)
+        Me.Producto6.ButtonText = "Ordenar"
+        Me.Producto6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto6.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto6.ForeColor = System.Drawing.Color.Red
+        Me.Producto6.IdleBorderThickness = 1
+        Me.Producto6.IdleCornerRadius = 20
+        Me.Producto6.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto6.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto6.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto6.Location = New System.Drawing.Point(520, 322)
+        Me.Producto6.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto6.Name = "Producto6"
+        Me.Producto6.Size = New System.Drawing.Size(96, 33)
+        Me.Producto6.TabIndex = 53
+        Me.Producto6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lbhd
         '
@@ -556,230 +567,6 @@ Partial Class MacFood
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Cordon Bleu"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label2.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label2.Location = New System.Drawing.Point(15, 39)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(34, 21)
-        Me.Label2.TabIndex = 39
-        Me.Label2.Text = "de"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label6.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label6.Location = New System.Drawing.Point(10, 60)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(88, 21)
-        Me.Label6.TabIndex = 40
-        Me.Label6.Text = "Pedidos"
-        '
-        'Producto4
-        '
-        Me.Producto4.ActiveBorderThickness = 1
-        Me.Producto4.ActiveCornerRadius = 20
-        Me.Producto4.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto4.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto4.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto4.BackgroundImage = CType(resources.GetObject("Producto4.BackgroundImage"), System.Drawing.Image)
-        Me.Producto4.ButtonText = "Ordenar"
-        Me.Producto4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto4.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto4.ForeColor = System.Drawing.Color.Red
-        Me.Producto4.IdleBorderThickness = 1
-        Me.Producto4.IdleCornerRadius = 20
-        Me.Producto4.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto4.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto4.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto4.Location = New System.Drawing.Point(521, 73)
-        Me.Producto4.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto4.Name = "Producto4"
-        Me.Producto4.Size = New System.Drawing.Size(95, 33)
-        Me.Producto4.TabIndex = 58
-        Me.Producto4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btnew
-        '
-        Me.btnew.ActiveBorderThickness = 1
-        Me.btnew.ActiveCornerRadius = 20
-        Me.btnew.ActiveFillColor = System.Drawing.Color.SeaGreen
-        Me.btnew.ActiveForecolor = System.Drawing.Color.White
-        Me.btnew.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.btnew.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnew.BackgroundImage = CType(resources.GetObject("btnew.BackgroundImage"), System.Drawing.Image)
-        Me.btnew.ButtonText = "Reiniciar"
-        Me.btnew.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnew.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnew.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btnew.IdleBorderThickness = 1
-        Me.btnew.IdleCornerRadius = 20
-        Me.btnew.IdleFillColor = System.Drawing.Color.White
-        Me.btnew.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.btnew.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.btnew.Location = New System.Drawing.Point(10, 337)
-        Me.btnew.Margin = New System.Windows.Forms.Padding(5)
-        Me.btnew.Name = "btnew"
-        Me.btnew.Size = New System.Drawing.Size(100, 40)
-        Me.btnew.TabIndex = 38
-        Me.btnew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btncobrar
-        '
-        Me.btncobrar.ActiveBorderThickness = 1
-        Me.btncobrar.ActiveCornerRadius = 20
-        Me.btncobrar.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.ActiveForecolor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btncobrar.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btncobrar.BackgroundImage = CType(resources.GetObject("btncobrar.BackgroundImage"), System.Drawing.Image)
-        Me.btncobrar.ButtonText = "Cobrar"
-        Me.btncobrar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btncobrar.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncobrar.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btncobrar.IdleBorderThickness = 1
-        Me.btncobrar.IdleCornerRadius = 20
-        Me.btncobrar.IdleFillColor = System.Drawing.Color.White
-        Me.btncobrar.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.IdleLineColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.Location = New System.Drawing.Point(8, 296)
-        Me.btncobrar.Margin = New System.Windows.Forms.Padding(5)
-        Me.btncobrar.Name = "btncobrar"
-        Me.btncobrar.Size = New System.Drawing.Size(100, 40)
-        Me.btncobrar.TabIndex = 37
-        Me.btncobrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto2
-        '
-        Me.Producto2.ActiveBorderThickness = 1
-        Me.Producto2.ActiveCornerRadius = 20
-        Me.Producto2.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto2.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto2.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto2.BackgroundImage = CType(resources.GetObject("Producto2.BackgroundImage"), System.Drawing.Image)
-        Me.Producto2.ButtonText = "Ordenar"
-        Me.Producto2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto2.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto2.ForeColor = System.Drawing.Color.Red
-        Me.Producto2.IdleBorderThickness = 1
-        Me.Producto2.IdleCornerRadius = 20
-        Me.Producto2.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto2.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto2.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto2.Location = New System.Drawing.Point(174, 211)
-        Me.Producto2.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto2.Name = "Producto2"
-        Me.Producto2.Size = New System.Drawing.Size(95, 33)
-        Me.Producto2.TabIndex = 57
-        Me.Producto2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto5
-        '
-        Me.Producto5.ActiveBorderThickness = 1
-        Me.Producto5.ActiveCornerRadius = 20
-        Me.Producto5.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto5.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto5.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto5.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto5.BackgroundImage = CType(resources.GetObject("Producto5.BackgroundImage"), System.Drawing.Image)
-        Me.Producto5.ButtonText = "Ordenar"
-        Me.Producto5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto5.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto5.ForeColor = System.Drawing.Color.Red
-        Me.Producto5.IdleBorderThickness = 1
-        Me.Producto5.IdleCornerRadius = 20
-        Me.Producto5.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto5.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto5.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto5.Location = New System.Drawing.Point(521, 199)
-        Me.Producto5.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto5.Name = "Producto5"
-        Me.Producto5.Size = New System.Drawing.Size(95, 33)
-        Me.Producto5.TabIndex = 56
-        Me.Producto5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto3
-        '
-        Me.Producto3.ActiveBorderThickness = 1
-        Me.Producto3.ActiveCornerRadius = 20
-        Me.Producto3.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto3.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto3.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto3.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto3.BackgroundImage = CType(resources.GetObject("Producto3.BackgroundImage"), System.Drawing.Image)
-        Me.Producto3.ButtonText = "Ordenar"
-        Me.Producto3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto3.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto3.ForeColor = System.Drawing.Color.Red
-        Me.Producto3.IdleBorderThickness = 1
-        Me.Producto3.IdleCornerRadius = 20
-        Me.Producto3.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto3.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto3.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto3.Location = New System.Drawing.Point(175, 320)
-        Me.Producto3.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto3.Name = "Producto3"
-        Me.Producto3.Size = New System.Drawing.Size(95, 33)
-        Me.Producto3.TabIndex = 55
-        Me.Producto3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto1
-        '
-        Me.Producto1.ActiveBorderThickness = 1
-        Me.Producto1.ActiveCornerRadius = 20
-        Me.Producto1.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto1.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto1.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto1.BackgroundImage = CType(resources.GetObject("Producto1.BackgroundImage"), System.Drawing.Image)
-        Me.Producto1.ButtonText = "Ordenar"
-        Me.Producto1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto1.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto1.ForeColor = System.Drawing.Color.Red
-        Me.Producto1.IdleBorderThickness = 1
-        Me.Producto1.IdleCornerRadius = 20
-        Me.Producto1.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto1.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto1.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto1.Location = New System.Drawing.Point(174, 65)
-        Me.Producto1.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto1.Name = "Producto1"
-        Me.Producto1.Size = New System.Drawing.Size(95, 33)
-        Me.Producto1.TabIndex = 54
-        Me.Producto1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto6
-        '
-        Me.Producto6.ActiveBorderThickness = 1
-        Me.Producto6.ActiveCornerRadius = 20
-        Me.Producto6.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto6.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto6.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto6.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto6.BackgroundImage = CType(resources.GetObject("Producto6.BackgroundImage"), System.Drawing.Image)
-        Me.Producto6.ButtonText = "Ordenar"
-        Me.Producto6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto6.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto6.ForeColor = System.Drawing.Color.Red
-        Me.Producto6.IdleBorderThickness = 1
-        Me.Producto6.IdleCornerRadius = 20
-        Me.Producto6.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto6.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto6.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto6.Location = New System.Drawing.Point(520, 322)
-        Me.Producto6.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto6.Name = "Producto6"
-        Me.Producto6.Size = New System.Drawing.Size(96, 33)
-        Me.Producto6.TabIndex = 53
-        Me.Producto6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'PictureBox6
         '
         Me.PictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -852,6 +639,219 @@ Partial Class MacFood
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel2.Controls.Add(Me.Label6)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Controls.Add(Me.Button1)
+        Me.Panel2.Controls.Add(Me.btnew)
+        Me.Panel2.Controls.Add(Me.btncobrar)
+        Me.Panel2.Controls.Add(Me.Label47)
+        Me.Panel2.Controls.Add(Me.lblcj)
+        Me.Panel2.Controls.Add(Me.lblsb)
+        Me.Panel2.Controls.Add(Me.lbliva)
+        Me.Panel2.Controls.Add(Me.lbltt)
+        Me.Panel2.Controls.Add(Me.Label42)
+        Me.Panel2.Controls.Add(Me.Label41)
+        Me.Panel2.Controls.Add(Me.Label40)
+        Me.Panel2.Controls.Add(Me.Label39)
+        Me.Panel2.Location = New System.Drawing.Point(668, 1)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(134, 403)
+        Me.Panel2.TabIndex = 4
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label6.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label6.Location = New System.Drawing.Point(10, 60)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(88, 21)
+        Me.Label6.TabIndex = 40
+        Me.Label6.Text = "Pedidos"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label2.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label2.Location = New System.Drawing.Point(15, 39)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(34, 21)
+        Me.Label2.TabIndex = 39
+        Me.Label2.Text = "de"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Uighur", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button1.Location = New System.Drawing.Point(80, 373)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(34, 23)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "EXIT"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'btnew
+        '
+        Me.btnew.ActiveBorderThickness = 1
+        Me.btnew.ActiveCornerRadius = 20
+        Me.btnew.ActiveFillColor = System.Drawing.Color.SeaGreen
+        Me.btnew.ActiveForecolor = System.Drawing.Color.White
+        Me.btnew.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.btnew.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnew.BackgroundImage = CType(resources.GetObject("btnew.BackgroundImage"), System.Drawing.Image)
+        Me.btnew.ButtonText = "Reiniciar"
+        Me.btnew.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnew.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnew.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btnew.IdleBorderThickness = 1
+        Me.btnew.IdleCornerRadius = 20
+        Me.btnew.IdleFillColor = System.Drawing.Color.White
+        Me.btnew.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.btnew.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.btnew.Location = New System.Drawing.Point(10, 337)
+        Me.btnew.Margin = New System.Windows.Forms.Padding(5)
+        Me.btnew.Name = "btnew"
+        Me.btnew.Size = New System.Drawing.Size(100, 40)
+        Me.btnew.TabIndex = 38
+        Me.btnew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btncobrar
+        '
+        Me.btncobrar.ActiveBorderThickness = 1
+        Me.btncobrar.ActiveCornerRadius = 20
+        Me.btncobrar.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.ActiveForecolor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btncobrar.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btncobrar.BackgroundImage = CType(resources.GetObject("btncobrar.BackgroundImage"), System.Drawing.Image)
+        Me.btncobrar.ButtonText = "Cobrar"
+        Me.btncobrar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btncobrar.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncobrar.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btncobrar.IdleBorderThickness = 1
+        Me.btncobrar.IdleCornerRadius = 20
+        Me.btncobrar.IdleFillColor = System.Drawing.Color.White
+        Me.btncobrar.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.IdleLineColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.Location = New System.Drawing.Point(8, 296)
+        Me.btncobrar.Margin = New System.Windows.Forms.Padding(5)
+        Me.btncobrar.Name = "btncobrar"
+        Me.btncobrar.Size = New System.Drawing.Size(100, 40)
+        Me.btncobrar.TabIndex = 37
+        Me.btncobrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label47.Font = New System.Drawing.Font("Lucida Handwriting", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.Color.DarkRed
+        Me.Label47.Location = New System.Drawing.Point(10, 18)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(98, 21)
+        Me.Label47.TabIndex = 36
+        Me.Label47.Text = "Registro "
+        '
+        'lblcj
+        '
+        Me.lblcj.AutoSize = True
+        Me.lblcj.BackColor = System.Drawing.Color.PaleGreen
+        Me.lblcj.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcj.ForeColor = System.Drawing.Color.Goldenrod
+        Me.lblcj.Location = New System.Drawing.Point(36, 123)
+        Me.lblcj.Name = "lblcj"
+        Me.lblcj.Size = New System.Drawing.Size(57, 19)
+        Me.lblcj.TabIndex = 35
+        Me.lblcj.Text = "500.00"
+        '
+        'lblsb
+        '
+        Me.lblsb.AutoSize = True
+        Me.lblsb.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.lblsb.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblsb.ForeColor = System.Drawing.Color.Black
+        Me.lblsb.Location = New System.Drawing.Point(36, 175)
+        Me.lblsb.Name = "lblsb"
+        Me.lblsb.Size = New System.Drawing.Size(53, 18)
+        Me.lblsb.TabIndex = 34
+        Me.lblsb.Text = "100.00"
+        '
+        'lbliva
+        '
+        Me.lbliva.AutoSize = True
+        Me.lbliva.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.lbliva.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbliva.ForeColor = System.Drawing.Color.Black
+        Me.lbliva.Location = New System.Drawing.Point(36, 223)
+        Me.lbliva.Name = "lbliva"
+        Me.lbliva.Size = New System.Drawing.Size(53, 18)
+        Me.lbliva.TabIndex = 33
+        Me.lbliva.Text = "100.00"
+        '
+        'lbltt
+        '
+        Me.lbltt.AutoSize = True
+        Me.lbltt.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.lbltt.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbltt.ForeColor = System.Drawing.Color.Black
+        Me.lbltt.Location = New System.Drawing.Point(37, 267)
+        Me.lbltt.Name = "lbltt"
+        Me.lbltt.Size = New System.Drawing.Size(53, 18)
+        Me.lbltt.TabIndex = 32
+        Me.lbltt.Text = "100.00"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.Black
+        Me.Label42.Location = New System.Drawing.Point(7, 247)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(44, 18)
+        Me.Label42.TabIndex = 12
+        Me.Label42.Text = "Total"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.Black
+        Me.Label41.Location = New System.Drawing.Point(7, 206)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(33, 18)
+        Me.Label41.TabIndex = 11
+        Me.Label41.Text = "IVA"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.Color.Black
+        Me.Label40.Location = New System.Drawing.Point(7, 158)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(68, 18)
+        Me.Label40.TabIndex = 10
+        Me.Label40.Text = "Subtotal"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Constantia", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.ForeColor = System.Drawing.Color.Black
+        Me.Label39.Location = New System.Drawing.Point(1, 105)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(113, 18)
+        Me.Label39.TabIndex = 9
+        Me.Label39.Text = "Dinero en caja"
+        '
         'MacFood
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -867,14 +867,14 @@ Partial Class MacFood
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
