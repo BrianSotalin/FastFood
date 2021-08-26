@@ -84,11 +84,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\basedatos.vb" />
-    <Compile Include="Presentacion\Form1.vb">
+    <Compile Include="Presentacion\macfood.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Presentacion\macfood.Designer.vb">
+      <DependentUpon>macfood.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\formbebida.Designer.vb">
+      <DependentUpon>formbebida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\formbebida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\formhome.Designer.vb">
+      <DependentUpon>formhome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\formhome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\formfood.Designer.vb">
+      <DependentUpon>formfood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\formfood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\formpostr.Designer.vb">
+      <DependentUpon>formpostr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\formpostr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmus.Designer.vb">
+      <DependentUpon>frmus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmus.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\login.Designer.vb">
@@ -118,10 +148,31 @@
     <Compile Include="Presentacion\menuprincipal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Presentacion\slidermenu.Designer.vb">
+      <DependentUpon>slidermenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\slidermenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Presentacion\Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Presentacion\macfood.resx">
+      <DependentUpon>macfood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\formbebida.resx">
+      <DependentUpon>formbebida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\formhome.resx">
+      <DependentUpon>formhome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\formfood.resx">
+      <DependentUpon>formfood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\formpostr.resx">
+      <DependentUpon>formpostr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmus.resx">
+      <DependentUpon>frmus.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -134,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\menuprincipal.resx">
       <DependentUpon>menuprincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\slidermenu.resx">
+      <DependentUpon>slidermenu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +258,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburguesapromoslide1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastapromoslide3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzapromoslide2ps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wtssp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instgr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lgfb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

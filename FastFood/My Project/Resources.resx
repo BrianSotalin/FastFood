@@ -133,6 +133,15 @@
   <data name="MacFood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MacFood1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hamburguesapromoslide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamburguesapromoslide1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzapromoslide2ps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzapromoslide2ps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cordon-Blue-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cordon-Blue-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,11 +151,14 @@
   <data name="drinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\drinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ravioli capresi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ravioli capresi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wtssp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wtssp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fries + bacon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fries + bacon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MacFood" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MacFood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,10 +181,22 @@
   <data name="users" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ravioli capresi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ravioli capresi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lgfb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lgfb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="instgr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instgr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fastfood2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fastfood2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pastapromoslide3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pastapromoslide3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

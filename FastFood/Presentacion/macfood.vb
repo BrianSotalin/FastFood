@@ -79,7 +79,7 @@
         'stock
         stockfb = stockfb - 1
         If stockfb <= 0 Then
-            Producto2.Enabled = False
+            Producto1.Enabled = False
             lbfb.Text = 0
             MsgBox("Stock agotado", vbCritical, "@ MacFood Enterprise | 2021")
         Else
@@ -222,28 +222,6 @@
         lbltt.Text = total.ToString("C")
     End Sub
 
-
-
-    Private Sub Producto2_Click(sender As Object, e As EventArgs)
-        Call comida2()
-    End Sub
-
-    Private Sub Producto3_Click(sender As Object, e As EventArgs)
-        Call comida3()
-    End Sub
-
-    Private Sub Producto4_Click(sender As Object, e As EventArgs)
-        Call comida4()
-    End Sub
-
-    Private Sub Producto6_Click(sender As Object, e As EventArgs)
-        Call comida6()
-    End Sub
-
-    Private Sub Producto5_Click(sender As Object, e As EventArgs)
-        Call comida5()
-    End Sub
-
     Private Sub btncobrar_Click(sender As Object, e As EventArgs)
         fincompra()
     End Sub
@@ -257,29 +235,7 @@
         neworden()
     End Sub
 
-    Private Sub Producto1_Click(sender As Object, e As EventArgs) Handles Producto1.Click
-        Call Comida1()
-    End Sub
 
-    Private Sub Producto2_Click_1(sender As Object, e As EventArgs) Handles Producto2.Click
-        Call comida2()
-    End Sub
-
-    Private Sub Producto3_Click_1(sender As Object, e As EventArgs) Handles Producto3.Click
-        Call comida3()
-    End Sub
-
-    Private Sub Producto4_Click_1(sender As Object, e As EventArgs) Handles Producto4.Click
-        Call comida4()
-    End Sub
-
-    Private Sub Producto5_Click_1(sender As Object, e As EventArgs) Handles Producto5.Click
-        Call comida5()
-    End Sub
-
-    Private Sub Producto6_Click_1(sender As Object, e As EventArgs) Handles Producto6.Click
-        Call comida6()
-    End Sub
 
     Private Sub btncobrar_Click_1(sender As Object, e As EventArgs) Handles btncobrar.Click
         fincompra()
@@ -288,4 +244,30 @@
     Private Sub btnew_Click_1(sender As Object, e As EventArgs) Handles btnew.Click
         neworden()
     End Sub
+
+    Private Sub Producto1_Click(sender As Object, e As EventArgs) Handles Producto1.Click
+        Comida1()
+    End Sub
+
+    Private Sub Producto5_Click(sender As Object, e As EventArgs) Handles Producto5.Click
+        comida3()
+    End Sub
+
+    Private Sub Producto3_Click(sender As Object, e As EventArgs) Handles Producto3.Click
+        comida2()
+    End Sub
+
+    Private Sub Producto2_Click(sender As Object, e As EventArgs) Handles Producto2.Click
+        comida4()
+    End Sub
+
+    Private Sub Producto4_Click(sender As Object, e As EventArgs) Handles Producto4.Click
+        comida5()
+    End Sub
+
+    Private Sub Producto6_Click(sender As Object, e As EventArgs) Handles Producto6.Click
+        comida6()
+    End Sub
+
+
 End Class
