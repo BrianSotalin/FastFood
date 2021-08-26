@@ -84,6 +84,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\basedatos.vb" />
+    <Compile Include="Presentacion\infoapp.Designer.vb">
+      <DependentUpon>infoapp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\infoapp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Login\newlogin.Designer.vb">
+      <DependentUpon>newlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Login\newlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\macfood.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +162,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Presentacion\infoapp.resx">
+      <DependentUpon>infoapp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Login\newlogin.resx">
+      <DependentUpon>newlogin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\macfood.resx">
       <DependentUpon>macfood.vb</DependentUpon>
     </EmbeddedResource>
@@ -297,6 +315,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dessert3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastfood21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MacFood2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logobr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastfood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastfood22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qq1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -42,7 +42,7 @@
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         End
     End Sub
-    Private Sub btnmenu_Click(sender As Object, e As EventArgs) Handles btnmenu.Click
+    Private Sub btnmenu_Click(sender As Object, e As EventArgs)
         If panlfood.Width = 62 Then
             panlfood.Visible = False
             panlfood.Width = 186
@@ -90,5 +90,38 @@
 
     Private Sub btnhome_Click(sender As Object, e As EventArgs) Handles btnhome.Click
         AbrirformEnPanel(Of formhome)()
+    End Sub
+
+    Private Sub btnqu_Click(sender As Object, e As EventArgs) Handles btnqu.Click
+        infoapp.ShowDialog()
+    End Sub
+
+    Private Sub logo_Click(sender As Object, e As EventArgs) Handles logo.Click
+        If panlfood.Width = 62 Then
+            panlfood.Visible = False
+            panlfood.Width = 185
+            panela.ShowSync(panlfood)
+            logoaa.ShowSync(logo)
+        Else
+            logo.Visible = False
+            panlfood.Visible = False
+            panlfood.Width = 62
+            panela2.ShowSync(panlfood)
+        End If
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If panlfood.Width = 62 Then
+            panlfood.Visible = False
+            panlfood.Width = 185
+            panela.ShowSync(panlfood)
+            logoaa.ShowSync(logo)
+        Else
+            logo.Visible = False
+            panlfood.Visible = False
+            panlfood.Width = 62
+            panela2.ShowSync(panlfood)
+        End If
     End Sub
 End Class

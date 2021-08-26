@@ -23,10 +23,10 @@ Partial Class menuprincipal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation4 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation40 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(menuprincipal))
-        Dim Animation5 As AnimatorNS.Animation = New AnimatorNS.Animation()
-        Dim Animation6 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation41 As AnimatorNS.Animation = New AnimatorNS.Animation()
+        Dim Animation42 As AnimatorNS.Animation = New AnimatorNS.Animation()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -71,6 +71,7 @@ Partial Class menuprincipal
         Me.logoaa = New AnimatorNS.Animator(Me.components)
         Me.panela2 = New AnimatorNS.Animator(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.GunaDragControl4 = New Guna.UI.WinForms.GunaDragControl(Me.components)
         Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
@@ -78,7 +79,6 @@ Partial Class menuprincipal
         Me.btnorden = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.pbhamburger = New System.Windows.Forms.PictureBox()
         Me.logo = New Guna.UI.WinForms.GunaCirclePictureBox()
-        Me.btnmenu = New System.Windows.Forms.Button()
         Me.btnusers = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btnpostre = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btncombo = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -87,6 +87,8 @@ Partial Class menuprincipal
         Me.btnhome = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.btnqu = New Guna.UI.WinForms.GunaCircleButton()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.panlfood.SuspendLayout()
         Me.panlcont.SuspendLayout()
@@ -104,6 +106,7 @@ Partial Class menuprincipal
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Gold
+        Me.Panel1.Controls.Add(Me.btnqu)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -163,9 +166,9 @@ Partial Class menuprincipal
         'panlfood
         '
         Me.panlfood.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.panlfood.Controls.Add(Me.Button1)
         Me.panlfood.Controls.Add(Me.logo)
         Me.panlfood.Controls.Add(Me.Panel2)
-        Me.panlfood.Controls.Add(Me.btnmenu)
         Me.panlfood.Controls.Add(Me.btnusers)
         Me.panlfood.Controls.Add(Me.btnpostre)
         Me.panlfood.Controls.Add(Me.btncombo)
@@ -193,41 +196,37 @@ Partial Class menuprincipal
         '
         'GunaElipse1
         '
-        Me.GunaElipse1.Radius = 40
+        Me.GunaElipse1.Radius = 20
         Me.GunaElipse1.TargetControl = Me
         '
         'GunaDragControl1
         '
-        Me.GunaDragControl1.TargetControl = Me.Panel1
-        '
-        'GunaDragControl2
-        '
-        Me.GunaDragControl2.TargetControl = Me.panlfood
+        Me.GunaDragControl1.TargetControl = Me.logo
         '
         'GunaDragControl3
         '
-        Me.GunaDragControl3.TargetControl = Me
+        Me.GunaDragControl3.TargetControl = Me.PictureBox2
         '
         'panela
         '
         Me.panela.AnimationType = AnimatorNS.AnimationType.HorizSlide
         Me.panela.Cursor = Nothing
-        Animation4.AnimateOnlyDifferences = True
-        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
-        Animation4.LeafCoeff = 0!
-        Animation4.MaxTime = 1.0!
-        Animation4.MinTime = 0!
-        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
-        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
-        Animation4.MosaicSize = 0
-        Animation4.Padding = New System.Windows.Forms.Padding(0)
-        Animation4.RotateCoeff = 0!
-        Animation4.RotateLimit = 0!
-        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
-        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
-        Animation4.TimeCoeff = 0!
-        Animation4.TransparencyCoeff = 0!
-        Me.panela.DefaultAnimation = Animation4
+        Animation40.AnimateOnlyDifferences = True
+        Animation40.BlindCoeff = CType(resources.GetObject("Animation40.BlindCoeff"), System.Drawing.PointF)
+        Animation40.LeafCoeff = 0!
+        Animation40.MaxTime = 1.0!
+        Animation40.MinTime = 0!
+        Animation40.MosaicCoeff = CType(resources.GetObject("Animation40.MosaicCoeff"), System.Drawing.PointF)
+        Animation40.MosaicShift = CType(resources.GetObject("Animation40.MosaicShift"), System.Drawing.PointF)
+        Animation40.MosaicSize = 0
+        Animation40.Padding = New System.Windows.Forms.Padding(0)
+        Animation40.RotateCoeff = 0!
+        Animation40.RotateLimit = 0!
+        Animation40.ScaleCoeff = CType(resources.GetObject("Animation40.ScaleCoeff"), System.Drawing.PointF)
+        Animation40.SlideCoeff = CType(resources.GetObject("Animation40.SlideCoeff"), System.Drawing.PointF)
+        Animation40.TimeCoeff = 0!
+        Animation40.TransparencyCoeff = 0!
+        Me.panela.DefaultAnimation = Animation40
         Me.panela.Interval = 20
         '
         'ac
@@ -255,7 +254,7 @@ Partial Class menuprincipal
         Me.panela2.SetDecoration(Me.panlcont, AnimatorNS.DecorationType.None)
         Me.panlcont.Location = New System.Drawing.Point(192, 100)
         Me.panlcont.Name = "panlcont"
-        Me.panlcont.Size = New System.Drawing.Size(800, 406)
+        Me.panlcont.Size = New System.Drawing.Size(805, 406)
         Me.panlcont.TabIndex = 2
         '
         'panelpizza
@@ -275,7 +274,7 @@ Partial Class menuprincipal
         Me.panela.SetDecoration(Me.panelpizza, AnimatorNS.DecorationType.None)
         Me.logoaa.SetDecoration(Me.panelpizza, AnimatorNS.DecorationType.None)
         Me.panela2.SetDecoration(Me.panelpizza, AnimatorNS.DecorationType.None)
-        Me.panelpizza.Location = New System.Drawing.Point(16, -2)
+        Me.panelpizza.Location = New System.Drawing.Point(56, 5)
         Me.panelpizza.Name = "panelpizza"
         Me.panelpizza.Size = New System.Drawing.Size(700, 383)
         Me.panelpizza.TabIndex = 5
@@ -421,7 +420,7 @@ Partial Class menuprincipal
         Me.panela.SetDecoration(Me.panelpasta, AnimatorNS.DecorationType.None)
         Me.logoaa.SetDecoration(Me.panelpasta, AnimatorNS.DecorationType.None)
         Me.panela2.SetDecoration(Me.panelpasta, AnimatorNS.DecorationType.None)
-        Me.panelpasta.Location = New System.Drawing.Point(7, 6)
+        Me.panelpasta.Location = New System.Drawing.Point(47, 13)
         Me.panelpasta.Name = "panelpasta"
         Me.panelpasta.Size = New System.Drawing.Size(700, 383)
         Me.panelpasta.TabIndex = 4
@@ -554,7 +553,7 @@ Partial Class menuprincipal
         Me.panela.SetDecoration(Me.panelhamburguer, AnimatorNS.DecorationType.None)
         Me.logoaa.SetDecoration(Me.panelhamburguer, AnimatorNS.DecorationType.None)
         Me.panela2.SetDecoration(Me.panelhamburguer, AnimatorNS.DecorationType.None)
-        Me.panelhamburguer.Location = New System.Drawing.Point(26, -2)
+        Me.panelhamburguer.Location = New System.Drawing.Point(66, 5)
         Me.panelhamburguer.Name = "panelhamburguer"
         Me.panelhamburguer.Size = New System.Drawing.Size(700, 383)
         Me.panelhamburguer.TabIndex = 6
@@ -675,48 +674,52 @@ Partial Class menuprincipal
         '
         Me.logoaa.AnimationType = AnimatorNS.AnimationType.Particles
         Me.logoaa.Cursor = Nothing
-        Animation5.AnimateOnlyDifferences = True
-        Animation5.BlindCoeff = CType(resources.GetObject("Animation5.BlindCoeff"), System.Drawing.PointF)
-        Animation5.LeafCoeff = 0!
-        Animation5.MaxTime = 1.0!
-        Animation5.MinTime = 0!
-        Animation5.MosaicCoeff = CType(resources.GetObject("Animation5.MosaicCoeff"), System.Drawing.PointF)
-        Animation5.MosaicShift = CType(resources.GetObject("Animation5.MosaicShift"), System.Drawing.PointF)
-        Animation5.MosaicSize = 1
-        Animation5.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
-        Animation5.RotateCoeff = 0!
-        Animation5.RotateLimit = 0!
-        Animation5.ScaleCoeff = CType(resources.GetObject("Animation5.ScaleCoeff"), System.Drawing.PointF)
-        Animation5.SlideCoeff = CType(resources.GetObject("Animation5.SlideCoeff"), System.Drawing.PointF)
-        Animation5.TimeCoeff = 2.0!
-        Animation5.TransparencyCoeff = 0!
-        Me.logoaa.DefaultAnimation = Animation5
+        Animation41.AnimateOnlyDifferences = True
+        Animation41.BlindCoeff = CType(resources.GetObject("Animation41.BlindCoeff"), System.Drawing.PointF)
+        Animation41.LeafCoeff = 0!
+        Animation41.MaxTime = 1.0!
+        Animation41.MinTime = 0!
+        Animation41.MosaicCoeff = CType(resources.GetObject("Animation41.MosaicCoeff"), System.Drawing.PointF)
+        Animation41.MosaicShift = CType(resources.GetObject("Animation41.MosaicShift"), System.Drawing.PointF)
+        Animation41.MosaicSize = 1
+        Animation41.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
+        Animation41.RotateCoeff = 0!
+        Animation41.RotateLimit = 0!
+        Animation41.ScaleCoeff = CType(resources.GetObject("Animation41.ScaleCoeff"), System.Drawing.PointF)
+        Animation41.SlideCoeff = CType(resources.GetObject("Animation41.SlideCoeff"), System.Drawing.PointF)
+        Animation41.TimeCoeff = 2.0!
+        Animation41.TransparencyCoeff = 0!
+        Me.logoaa.DefaultAnimation = Animation41
         Me.logoaa.Interval = 20
         '
         'panela2
         '
         Me.panela2.AnimationType = AnimatorNS.AnimationType.Transparent
         Me.panela2.Cursor = Nothing
-        Animation6.AnimateOnlyDifferences = True
-        Animation6.BlindCoeff = CType(resources.GetObject("Animation6.BlindCoeff"), System.Drawing.PointF)
-        Animation6.LeafCoeff = 0!
-        Animation6.MaxTime = 1.0!
-        Animation6.MinTime = 0!
-        Animation6.MosaicCoeff = CType(resources.GetObject("Animation6.MosaicCoeff"), System.Drawing.PointF)
-        Animation6.MosaicShift = CType(resources.GetObject("Animation6.MosaicShift"), System.Drawing.PointF)
-        Animation6.MosaicSize = 0
-        Animation6.Padding = New System.Windows.Forms.Padding(0)
-        Animation6.RotateCoeff = 0!
-        Animation6.RotateLimit = 0!
-        Animation6.ScaleCoeff = CType(resources.GetObject("Animation6.ScaleCoeff"), System.Drawing.PointF)
-        Animation6.SlideCoeff = CType(resources.GetObject("Animation6.SlideCoeff"), System.Drawing.PointF)
-        Animation6.TimeCoeff = 0!
-        Animation6.TransparencyCoeff = 1.0!
-        Me.panela2.DefaultAnimation = Animation6
+        Animation42.AnimateOnlyDifferences = True
+        Animation42.BlindCoeff = CType(resources.GetObject("Animation42.BlindCoeff"), System.Drawing.PointF)
+        Animation42.LeafCoeff = 0!
+        Animation42.MaxTime = 1.0!
+        Animation42.MinTime = 0!
+        Animation42.MosaicCoeff = CType(resources.GetObject("Animation42.MosaicCoeff"), System.Drawing.PointF)
+        Animation42.MosaicShift = CType(resources.GetObject("Animation42.MosaicShift"), System.Drawing.PointF)
+        Animation42.MosaicSize = 0
+        Animation42.Padding = New System.Windows.Forms.Padding(0)
+        Animation42.RotateCoeff = 0!
+        Animation42.RotateLimit = 0!
+        Animation42.ScaleCoeff = CType(resources.GetObject("Animation42.ScaleCoeff"), System.Drawing.PointF)
+        Animation42.SlideCoeff = CType(resources.GetObject("Animation42.SlideCoeff"), System.Drawing.PointF)
+        Animation42.TimeCoeff = 0!
+        Animation42.TransparencyCoeff = 1.0!
+        Me.panela2.DefaultAnimation = Animation42
         Me.panela2.Interval = 30
         '
         'Timer1
         '
+        '
+        'GunaDragControl4
+        '
+        Me.GunaDragControl4.TargetControl = Me.panlcont
         '
         'BunifuThinButton22
         '
@@ -848,30 +851,13 @@ Partial Class menuprincipal
         Me.logoaa.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
         Me.panela2.SetDecoration(Me.logo, AnimatorNS.DecorationType.None)
         Me.logo.Image = Global.FastFood.My.Resources.Resources.bbr
-        Me.logo.Location = New System.Drawing.Point(12, 3)
+        Me.logo.Location = New System.Drawing.Point(12, 8)
         Me.logo.Name = "logo"
-        Me.logo.Size = New System.Drawing.Size(60, 60)
+        Me.logo.Size = New System.Drawing.Size(60, 51)
         Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.logo.TabIndex = 8
         Me.logo.TabStop = False
         Me.logo.UseTransfarantBackground = False
-        '
-        'btnmenu
-        '
-        Me.btnmenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnmenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnmenu.BackgroundImage = Global.FastFood.My.Resources.Resources.menubar
-        Me.btnmenu.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.panela2.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.logoaa.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.panela.SetDecoration(Me.btnmenu, AnimatorNS.DecorationType.None)
-        Me.btnmenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnmenu.ForeColor = System.Drawing.Color.Transparent
-        Me.btnmenu.Location = New System.Drawing.Point(135, 3)
-        Me.btnmenu.Name = "btnmenu"
-        Me.btnmenu.Size = New System.Drawing.Size(48, 50)
-        Me.btnmenu.TabIndex = 7
-        Me.btnmenu.UseVisualStyleBackColor = False
         '
         'btnusers
         '
@@ -903,7 +889,7 @@ Partial Class menuprincipal
         Me.btnusers.OnHovercolor = System.Drawing.Color.Transparent
         Me.btnusers.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btnusers.selected = False
-        Me.btnusers.Size = New System.Drawing.Size(194, 46)
+        Me.btnusers.Size = New System.Drawing.Size(161, 46)
         Me.btnusers.TabIndex = 6
         Me.btnusers.Text = "ABOUT US"
         Me.btnusers.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -940,7 +926,7 @@ Partial Class menuprincipal
         Me.btnpostre.OnHovercolor = System.Drawing.Color.Transparent
         Me.btnpostre.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btnpostre.selected = False
-        Me.btnpostre.Size = New System.Drawing.Size(194, 46)
+        Me.btnpostre.Size = New System.Drawing.Size(161, 46)
         Me.btnpostre.TabIndex = 5
         Me.btnpostre.Text = "POSTRES"
         Me.btnpostre.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -978,7 +964,7 @@ Partial Class menuprincipal
         Me.btncombo.OnHovercolor = System.Drawing.Color.Transparent
         Me.btncombo.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btncombo.selected = False
-        Me.btncombo.Size = New System.Drawing.Size(194, 46)
+        Me.btncombo.Size = New System.Drawing.Size(161, 46)
         Me.btncombo.TabIndex = 4
         Me.btncombo.Text = "COMBOS"
         Me.btncombo.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1015,7 +1001,7 @@ Partial Class menuprincipal
         Me.btnbebida.OnHovercolor = System.Drawing.Color.Transparent
         Me.btnbebida.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btnbebida.selected = False
-        Me.btnbebida.Size = New System.Drawing.Size(194, 46)
+        Me.btnbebida.Size = New System.Drawing.Size(161, 46)
         Me.btnbebida.TabIndex = 3
         Me.btnbebida.Text = "BEBIDAS"
         Me.btnbebida.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1052,7 +1038,7 @@ Partial Class menuprincipal
         Me.btncomida.OnHovercolor = System.Drawing.Color.Transparent
         Me.btncomida.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btncomida.selected = False
-        Me.btncomida.Size = New System.Drawing.Size(194, 46)
+        Me.btncomida.Size = New System.Drawing.Size(161, 46)
         Me.btncomida.TabIndex = 2
         Me.btncomida.Text = "COMIDAS"
         Me.btncomida.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1089,7 +1075,7 @@ Partial Class menuprincipal
         Me.btnhome.OnHovercolor = System.Drawing.Color.Transparent
         Me.btnhome.OnHoverTextColor = System.Drawing.Color.Gold
         Me.btnhome.selected = False
-        Me.btnhome.Size = New System.Drawing.Size(194, 46)
+        Me.btnhome.Size = New System.Drawing.Size(161, 46)
         Me.btnhome.TabIndex = 1
         Me.btnhome.Text = "HOME"
         Me.btnhome.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1115,13 +1101,57 @@ Partial Class menuprincipal
         Me.panela2.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
         Me.logoaa.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
         Me.panela.SetDecoration(Me.PictureBox3, AnimatorNS.DecorationType.None)
-        Me.PictureBox3.Image = Global.FastFood.My.Resources.Resources.close
-        Me.PictureBox3.Location = New System.Drawing.Point(952, 12)
+        Me.PictureBox3.Image = Global.FastFood.My.Resources.Resources.remove1
+        Me.PictureBox3.Location = New System.Drawing.Point(964, 0)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(48, 40)
+        Me.PictureBox3.Size = New System.Drawing.Size(36, 27)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 1
         Me.PictureBox3.TabStop = False
+        '
+        'btnqu
+        '
+        Me.btnqu.AnimationHoverSpeed = 0.07!
+        Me.btnqu.AnimationSpeed = 0.03!
+        Me.btnqu.BaseColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnqu.BorderColor = System.Drawing.Color.Black
+        Me.btnqu.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela.SetDecoration(Me.btnqu, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.btnqu, AnimatorNS.DecorationType.None)
+        Me.panela2.SetDecoration(Me.btnqu, AnimatorNS.DecorationType.None)
+        Me.btnqu.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnqu.FocusedColor = System.Drawing.Color.Empty
+        Me.btnqu.Font = New System.Drawing.Font("Lucida Calligraphy", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnqu.ForeColor = System.Drawing.Color.White
+        Me.btnqu.Image = Nothing
+        Me.btnqu.ImageSize = New System.Drawing.Size(52, 52)
+        Me.btnqu.Location = New System.Drawing.Point(928, 0)
+        Me.btnqu.Name = "btnqu"
+        Me.btnqu.OnHoverBaseColor = System.Drawing.Color.Teal
+        Me.btnqu.OnHoverBorderColor = System.Drawing.Color.Gray
+        Me.btnqu.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnqu.OnHoverImage = Nothing
+        Me.btnqu.OnPressedColor = System.Drawing.Color.Gray
+        Me.btnqu.Size = New System.Drawing.Size(30, 27)
+        Me.btnqu.TabIndex = 66
+        Me.btnqu.Text = "i"
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.BackgroundImage = Global.FastFood.My.Resources.Resources.menubar
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.panela2.SetDecoration(Me.Button1, AnimatorNS.DecorationType.None)
+        Me.logoaa.SetDecoration(Me.Button1, AnimatorNS.DecorationType.None)
+        Me.panela.SetDecoration(Me.Button1, AnimatorNS.DecorationType.None)
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(135, 6)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(48, 50)
+        Me.Button1.TabIndex = 9
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'menuprincipal
         '
@@ -1176,7 +1206,6 @@ Partial Class menuprincipal
     Friend WithEvents panela As AnimatorNS.Animator
     Friend WithEvents logoaa As AnimatorNS.Animator
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents btnmenu As Button
     Friend WithEvents panela2 As AnimatorNS.Animator
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -1220,4 +1249,7 @@ Partial Class menuprincipal
     Friend WithEvents Label15 As Label
     Friend WithEvents pbhamburger As PictureBox
     Friend WithEvents logo As Guna.UI.WinForms.GunaCirclePictureBox
+    Friend WithEvents GunaDragControl4 As Guna.UI.WinForms.GunaDragControl
+    Friend WithEvents btnqu As Guna.UI.WinForms.GunaCircleButton
+    Friend WithEvents Button1 As Button
 End Class

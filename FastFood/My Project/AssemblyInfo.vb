@@ -9,11 +9,11 @@ Imports System.Runtime.InteropServices
 ' Revisar los valores de los atributos del ensamblado
 
 <Assembly: AssemblyTitle("FastFood")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyDescription("Aplicacion de escritorio para compañia de comida rapida realizada 100% en .NET")>
+<Assembly: AssemblyCompany("Mac Food Inc.")>
 <Assembly: AssemblyProduct("FastFood")>
 <Assembly: AssemblyCopyright("Copyright ©  2021")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTrademark("Blady")>
 
 <Assembly: ComVisible(False)>
 

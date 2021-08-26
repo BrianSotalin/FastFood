@@ -26,10 +26,6 @@ Partial Class formbebida
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Producto4 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto2 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto3 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.Producto1 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.stckvt = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.lbvnt = New System.Windows.Forms.Label()
@@ -46,16 +42,10 @@ Partial Class formbebida
         Me.lblnuggets = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.btnew = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.btncobrar = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.lblcj = New System.Windows.Forms.Label()
         Me.lblsb = New System.Windows.Forms.Label()
@@ -65,12 +55,22 @@ Partial Class formbebida
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
+        Me.btnew = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.btncobrar = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto4 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto2 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto3 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Producto1 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -123,111 +123,11 @@ Partial Class formbebida
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Harlow Solid Italic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label2.Location = New System.Drawing.Point(192, 219)
+        Me.Label2.Location = New System.Drawing.Point(189, 249)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(71, 24)
         Me.Label2.TabIndex = 59
         Me.Label2.Text = "Blanco"
-        '
-        'Producto4
-        '
-        Me.Producto4.ActiveBorderThickness = 1
-        Me.Producto4.ActiveCornerRadius = 20
-        Me.Producto4.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto4.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto4.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto4.BackgroundImage = CType(resources.GetObject("Producto4.BackgroundImage"), System.Drawing.Image)
-        Me.Producto4.ButtonText = "Ordenar"
-        Me.Producto4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto4.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto4.ForeColor = System.Drawing.Color.Red
-        Me.Producto4.IdleBorderThickness = 1
-        Me.Producto4.IdleCornerRadius = 20
-        Me.Producto4.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto4.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto4.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto4.Location = New System.Drawing.Point(522, 123)
-        Me.Producto4.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto4.Name = "Producto4"
-        Me.Producto4.Size = New System.Drawing.Size(95, 33)
-        Me.Producto4.TabIndex = 58
-        Me.Producto4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto2
-        '
-        Me.Producto2.ActiveBorderThickness = 1
-        Me.Producto2.ActiveCornerRadius = 20
-        Me.Producto2.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto2.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto2.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto2.BackgroundImage = CType(resources.GetObject("Producto2.BackgroundImage"), System.Drawing.Image)
-        Me.Producto2.ButtonText = "Ordenar"
-        Me.Producto2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto2.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto2.ForeColor = System.Drawing.Color.Red
-        Me.Producto2.IdleBorderThickness = 1
-        Me.Producto2.IdleCornerRadius = 20
-        Me.Producto2.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto2.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto2.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto2.Location = New System.Drawing.Point(192, 265)
-        Me.Producto2.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto2.Name = "Producto2"
-        Me.Producto2.Size = New System.Drawing.Size(95, 33)
-        Me.Producto2.TabIndex = 57
-        Me.Producto2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto3
-        '
-        Me.Producto3.ActiveBorderThickness = 1
-        Me.Producto3.ActiveCornerRadius = 20
-        Me.Producto3.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto3.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto3.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto3.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto3.BackgroundImage = CType(resources.GetObject("Producto3.BackgroundImage"), System.Drawing.Image)
-        Me.Producto3.ButtonText = "Ordenar"
-        Me.Producto3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto3.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto3.ForeColor = System.Drawing.Color.Red
-        Me.Producto3.IdleBorderThickness = 1
-        Me.Producto3.IdleCornerRadius = 20
-        Me.Producto3.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto3.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto3.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto3.Location = New System.Drawing.Point(522, 249)
-        Me.Producto3.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto3.Name = "Producto3"
-        Me.Producto3.Size = New System.Drawing.Size(95, 33)
-        Me.Producto3.TabIndex = 56
-        Me.Producto3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Producto1
-        '
-        Me.Producto1.ActiveBorderThickness = 1
-        Me.Producto1.ActiveCornerRadius = 20
-        Me.Producto1.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.Producto1.ActiveForecolor = System.Drawing.Color.DarkRed
-        Me.Producto1.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.Producto1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Producto1.BackgroundImage = CType(resources.GetObject("Producto1.BackgroundImage"), System.Drawing.Image)
-        Me.Producto1.ButtonText = "Ordenar"
-        Me.Producto1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Producto1.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Producto1.ForeColor = System.Drawing.Color.Red
-        Me.Producto1.IdleBorderThickness = 1
-        Me.Producto1.IdleCornerRadius = 20
-        Me.Producto1.IdleFillColor = System.Drawing.Color.DarkRed
-        Me.Producto1.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.Producto1.IdleLineColor = System.Drawing.Color.DarkRed
-        Me.Producto1.Location = New System.Drawing.Point(192, 119)
-        Me.Producto1.Margin = New System.Windows.Forms.Padding(5)
-        Me.Producto1.Name = "Producto1"
-        Me.Producto1.Size = New System.Drawing.Size(95, 33)
-        Me.Producto1.TabIndex = 54
-        Me.Producto1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'stckvt
         '
@@ -267,7 +167,7 @@ Partial Class formbebida
         Me.stckvb.AutoSize = True
         Me.stckvb.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.stckvb.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stckvb.Location = New System.Drawing.Point(56, 193)
+        Me.stckvb.Location = New System.Drawing.Point(53, 223)
         Me.stckvb.Name = "stckvb"
         Me.stckvb.Size = New System.Drawing.Size(20, 16)
         Me.stckvb.TabIndex = 34
@@ -278,7 +178,7 @@ Partial Class formbebida
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Label25.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(18, 193)
+        Me.Label25.Location = New System.Drawing.Point(15, 223)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(42, 16)
         Me.Label25.TabIndex = 33
@@ -289,7 +189,7 @@ Partial Class formbebida
         Me.lbvnbl.AutoSize = True
         Me.lbvnbl.Font = New System.Drawing.Font("Broadway", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbvnbl.ForeColor = System.Drawing.Color.DarkRed
-        Me.lbvnbl.Location = New System.Drawing.Point(203, 241)
+        Me.lbvnbl.Location = New System.Drawing.Point(200, 271)
         Me.lbvnbl.Name = "lbvnbl"
         Me.lbvnbl.Size = New System.Drawing.Size(38, 19)
         Me.lbvnbl.TabIndex = 31
@@ -300,7 +200,7 @@ Partial Class formbebida
         Me.stckgs.AutoSize = True
         Me.stckgs.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.stckgs.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stckgs.Location = New System.Drawing.Point(385, 191)
+        Me.stckgs.Location = New System.Drawing.Point(382, 221)
         Me.stckgs.Name = "stckgs"
         Me.stckgs.Size = New System.Drawing.Size(20, 16)
         Me.stckgs.TabIndex = 28
@@ -311,7 +211,7 @@ Partial Class formbebida
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Label20.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(350, 191)
+        Me.Label20.Location = New System.Drawing.Point(347, 221)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(42, 16)
         Me.Label20.TabIndex = 27
@@ -322,7 +222,7 @@ Partial Class formbebida
         Me.lbgs.AutoSize = True
         Me.lbgs.Font = New System.Drawing.Font("Broadway", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbgs.ForeColor = System.Drawing.Color.DarkRed
-        Me.lbgs.Location = New System.Drawing.Point(552, 225)
+        Me.lbgs.Location = New System.Drawing.Point(549, 255)
         Me.lbgs.Name = "lbgs"
         Me.lbgs.Size = New System.Drawing.Size(49, 19)
         Me.lbgs.TabIndex = 25
@@ -377,7 +277,7 @@ Partial Class formbebida
         Me.lblnuggets.AutoSize = True
         Me.lblnuggets.Font = New System.Drawing.Font("Harlow Solid Italic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblnuggets.ForeColor = System.Drawing.Color.Goldenrod
-        Me.lblnuggets.Location = New System.Drawing.Point(189, 195)
+        Me.lblnuggets.Location = New System.Drawing.Point(186, 225)
         Me.lblnuggets.Name = "lblnuggets"
         Me.lblnuggets.Size = New System.Drawing.Size(53, 24)
         Me.lblnuggets.TabIndex = 9
@@ -388,7 +288,7 @@ Partial Class formbebida
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Harlow Solid Italic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label5.Location = New System.Drawing.Point(509, 191)
+        Me.Label5.Location = New System.Drawing.Point(506, 221)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(87, 24)
         Me.Label5.TabIndex = 8
@@ -405,54 +305,6 @@ Partial Class formbebida
         Me.Label3.Size = New System.Drawing.Size(156, 24)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Jugos Naturales"
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.FastFood.My.Resources.Resources.vino
-        Me.PictureBox5.Location = New System.Drawing.Point(350, 72)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(162, 113)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 4
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Image = Global.FastFood.My.Resources.Resources.vinoblanco
-        Me.PictureBox4.Location = New System.Drawing.Point(21, 193)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(164, 115)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Image = Global.FastFood.My.Resources.Resources.cc
-        Me.PictureBox3.Location = New System.Drawing.Point(350, 191)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(162, 115)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.FastFood.My.Resources.Resources.jugosnature
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 72)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(164, 115)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Panel2
         '
@@ -506,62 +358,12 @@ Partial Class formbebida
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Uighur", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button1.Location = New System.Drawing.Point(86, 329)
+        Me.Button1.Location = New System.Drawing.Point(83, 329)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(34, 22)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "EXIT"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'btnew
-        '
-        Me.btnew.ActiveBorderThickness = 1
-        Me.btnew.ActiveCornerRadius = 20
-        Me.btnew.ActiveFillColor = System.Drawing.Color.SeaGreen
-        Me.btnew.ActiveForecolor = System.Drawing.Color.White
-        Me.btnew.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.btnew.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnew.BackgroundImage = CType(resources.GetObject("btnew.BackgroundImage"), System.Drawing.Image)
-        Me.btnew.ButtonText = "Reiniciar"
-        Me.btnew.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnew.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnew.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btnew.IdleBorderThickness = 1
-        Me.btnew.IdleCornerRadius = 20
-        Me.btnew.IdleFillColor = System.Drawing.Color.White
-        Me.btnew.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.btnew.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.btnew.Location = New System.Drawing.Point(11, 284)
-        Me.btnew.Margin = New System.Windows.Forms.Padding(5)
-        Me.btnew.Name = "btnew"
-        Me.btnew.Size = New System.Drawing.Size(100, 40)
-        Me.btnew.TabIndex = 38
-        Me.btnew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btncobrar
-        '
-        Me.btncobrar.ActiveBorderThickness = 1
-        Me.btncobrar.ActiveCornerRadius = 20
-        Me.btncobrar.ActiveFillColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.ActiveForecolor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btncobrar.ActiveLineColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btncobrar.BackgroundImage = CType(resources.GetObject("btncobrar.BackgroundImage"), System.Drawing.Image)
-        Me.btncobrar.ButtonText = "Cobrar"
-        Me.btncobrar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btncobrar.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncobrar.ForeColor = System.Drawing.Color.SeaGreen
-        Me.btncobrar.IdleBorderThickness = 1
-        Me.btncobrar.IdleCornerRadius = 20
-        Me.btncobrar.IdleFillColor = System.Drawing.Color.White
-        Me.btncobrar.IdleForecolor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.IdleLineColor = System.Drawing.Color.Goldenrod
-        Me.btncobrar.Location = New System.Drawing.Point(10, 246)
-        Me.btncobrar.Margin = New System.Windows.Forms.Padding(5)
-        Me.btncobrar.Name = "btncobrar"
-        Me.btncobrar.Size = New System.Drawing.Size(100, 40)
-        Me.btncobrar.TabIndex = 37
-        Me.btncobrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label47
         '
@@ -667,6 +469,204 @@ Partial Class formbebida
         Me.Label39.TabIndex = 9
         Me.Label39.Text = "Dinero en caja"
         '
+        'btnew
+        '
+        Me.btnew.ActiveBorderThickness = 1
+        Me.btnew.ActiveCornerRadius = 20
+        Me.btnew.ActiveFillColor = System.Drawing.Color.SeaGreen
+        Me.btnew.ActiveForecolor = System.Drawing.Color.White
+        Me.btnew.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.btnew.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnew.BackgroundImage = CType(resources.GetObject("btnew.BackgroundImage"), System.Drawing.Image)
+        Me.btnew.ButtonText = "Reiniciar"
+        Me.btnew.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnew.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnew.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btnew.IdleBorderThickness = 1
+        Me.btnew.IdleCornerRadius = 20
+        Me.btnew.IdleFillColor = System.Drawing.Color.White
+        Me.btnew.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.btnew.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.btnew.Location = New System.Drawing.Point(11, 284)
+        Me.btnew.Margin = New System.Windows.Forms.Padding(5)
+        Me.btnew.Name = "btnew"
+        Me.btnew.Size = New System.Drawing.Size(100, 40)
+        Me.btnew.TabIndex = 38
+        Me.btnew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btncobrar
+        '
+        Me.btncobrar.ActiveBorderThickness = 1
+        Me.btncobrar.ActiveCornerRadius = 20
+        Me.btncobrar.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.ActiveForecolor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btncobrar.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btncobrar.BackgroundImage = CType(resources.GetObject("btncobrar.BackgroundImage"), System.Drawing.Image)
+        Me.btncobrar.ButtonText = "Cobrar"
+        Me.btncobrar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btncobrar.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncobrar.ForeColor = System.Drawing.Color.SeaGreen
+        Me.btncobrar.IdleBorderThickness = 1
+        Me.btncobrar.IdleCornerRadius = 20
+        Me.btncobrar.IdleFillColor = System.Drawing.Color.White
+        Me.btncobrar.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.IdleLineColor = System.Drawing.Color.Goldenrod
+        Me.btncobrar.Location = New System.Drawing.Point(10, 246)
+        Me.btncobrar.Margin = New System.Windows.Forms.Padding(5)
+        Me.btncobrar.Name = "btncobrar"
+        Me.btncobrar.Size = New System.Drawing.Size(100, 40)
+        Me.btncobrar.TabIndex = 37
+        Me.btncobrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Producto4
+        '
+        Me.Producto4.ActiveBorderThickness = 1
+        Me.Producto4.ActiveCornerRadius = 20
+        Me.Producto4.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto4.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto4.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto4.BackgroundImage = CType(resources.GetObject("Producto4.BackgroundImage"), System.Drawing.Image)
+        Me.Producto4.ButtonText = "Ordenar"
+        Me.Producto4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto4.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto4.ForeColor = System.Drawing.Color.Red
+        Me.Producto4.IdleBorderThickness = 1
+        Me.Producto4.IdleCornerRadius = 20
+        Me.Producto4.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto4.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto4.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto4.Location = New System.Drawing.Point(522, 123)
+        Me.Producto4.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto4.Name = "Producto4"
+        Me.Producto4.Size = New System.Drawing.Size(95, 33)
+        Me.Producto4.TabIndex = 58
+        Me.Producto4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Producto2
+        '
+        Me.Producto2.ActiveBorderThickness = 1
+        Me.Producto2.ActiveCornerRadius = 20
+        Me.Producto2.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto2.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto2.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto2.BackgroundImage = CType(resources.GetObject("Producto2.BackgroundImage"), System.Drawing.Image)
+        Me.Producto2.ButtonText = "Ordenar"
+        Me.Producto2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto2.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto2.ForeColor = System.Drawing.Color.Red
+        Me.Producto2.IdleBorderThickness = 1
+        Me.Producto2.IdleCornerRadius = 20
+        Me.Producto2.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto2.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto2.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto2.Location = New System.Drawing.Point(189, 295)
+        Me.Producto2.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto2.Name = "Producto2"
+        Me.Producto2.Size = New System.Drawing.Size(95, 33)
+        Me.Producto2.TabIndex = 57
+        Me.Producto2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Producto3
+        '
+        Me.Producto3.ActiveBorderThickness = 1
+        Me.Producto3.ActiveCornerRadius = 20
+        Me.Producto3.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto3.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto3.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto3.BackgroundImage = CType(resources.GetObject("Producto3.BackgroundImage"), System.Drawing.Image)
+        Me.Producto3.ButtonText = "Ordenar"
+        Me.Producto3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto3.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto3.ForeColor = System.Drawing.Color.Red
+        Me.Producto3.IdleBorderThickness = 1
+        Me.Producto3.IdleCornerRadius = 20
+        Me.Producto3.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto3.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto3.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto3.Location = New System.Drawing.Point(519, 279)
+        Me.Producto3.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto3.Name = "Producto3"
+        Me.Producto3.Size = New System.Drawing.Size(95, 33)
+        Me.Producto3.TabIndex = 56
+        Me.Producto3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Producto1
+        '
+        Me.Producto1.ActiveBorderThickness = 1
+        Me.Producto1.ActiveCornerRadius = 20
+        Me.Producto1.ActiveFillColor = System.Drawing.Color.Goldenrod
+        Me.Producto1.ActiveForecolor = System.Drawing.Color.DarkRed
+        Me.Producto1.ActiveLineColor = System.Drawing.Color.Goldenrod
+        Me.Producto1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Producto1.BackgroundImage = CType(resources.GetObject("Producto1.BackgroundImage"), System.Drawing.Image)
+        Me.Producto1.ButtonText = "Ordenar"
+        Me.Producto1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Producto1.Font = New System.Drawing.Font("Constantia", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Producto1.ForeColor = System.Drawing.Color.Red
+        Me.Producto1.IdleBorderThickness = 1
+        Me.Producto1.IdleCornerRadius = 20
+        Me.Producto1.IdleFillColor = System.Drawing.Color.DarkRed
+        Me.Producto1.IdleForecolor = System.Drawing.Color.Goldenrod
+        Me.Producto1.IdleLineColor = System.Drawing.Color.DarkRed
+        Me.Producto1.Location = New System.Drawing.Point(192, 119)
+        Me.Producto1.Margin = New System.Windows.Forms.Padding(5)
+        Me.Producto1.Name = "Producto1"
+        Me.Producto1.Size = New System.Drawing.Size(95, 33)
+        Me.Producto1.TabIndex = 54
+        Me.Producto1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox5.Image = Global.FastFood.My.Resources.Resources.vino
+        Me.PictureBox5.Location = New System.Drawing.Point(350, 72)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(162, 113)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 4
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox4.Image = Global.FastFood.My.Resources.Resources.vinoblanco
+        Me.PictureBox4.Location = New System.Drawing.Point(18, 223)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(164, 115)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 3
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox3.Image = Global.FastFood.My.Resources.Resources.cc
+        Me.PictureBox3.Location = New System.Drawing.Point(347, 221)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(162, 115)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox1.Image = Global.FastFood.My.Resources.Resources.jugosnature
+        Me.PictureBox1.Location = New System.Drawing.Point(21, 72)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(164, 115)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'formbebida
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -679,12 +679,12 @@ Partial Class formbebida
         Me.Text = "formbebida"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
